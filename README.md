@@ -1,4 +1,4 @@
-# tesla-clone app by Jordan Rodger
+# tesla.com Clone using ReactJS by Jordan Rodger
 
 Task 17 - Introducing React Elements and Components - Part 3
 
@@ -9,6 +9,8 @@ Node modules have been deleted.
 Further, you will find the comments recieved from a code reviewer at HyperionDev below, along with the grading.
 <br>
 I utilised the Prettier VSCode extention on this part, but, to the best of my knowledge, the comments made by the code reviewer are less applicable in this part compared to the react-hello app.
+
+https://www.tesla.com/ - Original Website
 
 <h3>Below is the task specifications for Part 3 as given by HyperionDev:</h3>
 
