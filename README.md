@@ -1,6 +1,9 @@
-# tesla.com Clone using ReactJS by Jordan Rodger
+# tesla.com Clone using ReactJS
+<strong>Code written by Jordan Rodger</strong>
+<br>
+<br>
 
-Task 17 - Introducing React Elements and Components - Part 3
+<strong>Task 17 - Introducing React Elements and Components - Part 3</strong>
 
 This project was completed as a part of the DfE Full-Stack Web Development bootcamp at HyperionDev. My final grade for this was 94% along with my react-hello app, which will be within the react-hello repository.
 <br>
