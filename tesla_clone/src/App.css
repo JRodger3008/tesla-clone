@@ -1,0 +1,324 @@
+/* CSS properties were mainly decided by experimentation. I apologise if some of the properties are
+redundant. Further, I did not delete certain code (.App-header/@keyframes) so as to not break the app.
+I'm almost certain if I deleted the @keyframes, it would not break the app, but I apologise nonetheless */
+
+.App {
+  display: grid;
+  grid-template-columns: 12, 1fr;
+  grid-template-rows: 40, 1fr;
+  background-color: black;
+}
+
+#model3Img {
+  /* 1 */
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#modelYImg {
+  /* 2 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#modelXImg {
+  /* 3 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 8;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#modelSImg {
+  /* 4 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 12;
+  grid-row-end: 16;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#cybertruckImg {
+  /* 5 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 16;
+  grid-row-end: 20;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#solarPanelsImg {
+  /* 6 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 20;
+  grid-row-end: 24;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#solarRoofImg {
+  /* 7 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 24;
+  grid-row-end: 28;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#powerwallImg {
+  /* 8 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 28;
+  grid-row-end: 32;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#accessoriesImg {
+  /* 9 */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 32;
+  grid-row-end: 36;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+#headerDiv {
+  display: flex;
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.topHeader {
+  display: flex;
+  position: relative; /* UNSURE ON THIS PROP */
+  font-weight: 600;
+  font-size: 1.2vw;
+
+  /* top: 3.7%;
+  left: 3.7%; */
+}
+
+#teslaLogo {
+  display: flex;
+  position: absolute;
+  top: 3.7%;
+  left: 3.7%;
+
+  mix-blend-mode: multiply;
+  background-color: transparent;
+
+  height: 2.1%;
+  width: 9.6%;
+}
+
+#cybertruckLogo {
+  display: flex;
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  grid-row-start: 16;
+  height: 90px;
+  width: 300px;
+  justify-self: center;
+  top: 80%;
+}
+
+#iconDiv {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  right: 2.7%;
+  top: 2.7%;
+  width: 100px;
+}
+
+.icons {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.supStyle {
+  vertical-align: top;
+  position: relative;
+  top: 0.3rem;
+}
+
+.carDetails {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.miscDetails {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: -40%;
+}
+
+#buttonDiv1 {
+  grid-row-start: 3;
+}
+
+#buttonDiv2 {
+  grid-row-start: 7;
+}
+
+#buttonDiv3 {
+  grid-row-start: 11;
+}
+
+#buttonDiv4 {
+  grid-row-start: 15;
+}
+
+#buttonDiv5 {
+  grid-row-start: 19;
+}
+
+#buttonDiv6 {
+  grid-row-start: 23;
+}
+
+#buttonDiv7 {
+  grid-row-start: 27;
+}
+
+#buttonDiv8 {
+  grid-row-start: 31;
+}
+
+#buttonDiv9 {
+  grid-row-start: 35;
+}
+
+#model3InfoStack {
+  grid-row: 1;
+}
+
+#modelYInfoStack {
+  grid-row: 4;
+}
+
+#modelXInfoStack {
+  grid-row: 8;
+}
+
+#modelSInfoStack {
+  grid-row: 12;
+  color: white;
+}
+
+#solarPanelsInfo {
+  grid-row: 20;
+  color: white;
+}
+
+#solarRoofInfo {
+  grid-row: 24;
+}
+
+#powerwallInfo {
+  grid-row: 28;
+}
+
+#accessoriesInfo {
+  grid-row: 32;
+}
+
+#footnoteStack {
+  display: flex;
+  position: relative;
+  grid-row-start: 36;
+  grid-row-end: 40;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  justify-content: center;
+  justify-self: center;
+  color: white;
+  margin: 40px;
+}
+
+.footerSentence {
+  display: flex;
+  position: relative;
+  /* height: 5px; */
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.estGasSavings {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 0;
+  height: 30px;
+}
+
+#footerBar {
+  display: flex;
+  position: relative;
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.flexItems {
+  display: flex;
+  position: relative;
+  margin: 10px;
+}
+
+#linkToOriginal {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  color: rgb(255, 83, 83);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
